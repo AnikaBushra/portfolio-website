@@ -4,14 +4,14 @@ import { BsDownload } from 'react-icons/bs';
 
 const Navbar = () => {
     const navLinks = <>
-        <li><Link>Home</Link></li>
-        <li><Link>About</Link></li>
-        <li><Link>Projects</Link></li>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li className="font-bold"><Link>Download Resume <BsDownload></BsDownload></Link></li>
     </>
     return (
         <div>
-            <div className="navbar  text-white ">
+            <div className="navbar  text-white fixed">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

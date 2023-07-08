@@ -1,0 +1,59 @@
+[
+    {
+        "name": "New Beginings",
+        "features": [
+            {
+                "no1": "A responsive and dynamic website with different features."
+            },
+            {
+                "no2": "Secure and convenient authentication."
+            },
+            {
+                "no3": "The website integrates a payment system, allowing users to make payment."
+            }
+        ],
+        "technologies": "",
+        "img": "https://i.ibb.co/MCFk4SZ/summer-camp-assignment-12-web-app.png",
+        "liveSite": "https://summer-camp-assignment-12.web.app/",
+        "github": "https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-AnikaBushra",
+        "server": ""
+    },
+    {
+        "name": "Bon Apettit",
+        "features": [
+            {
+                "no1": "A responsive and dynamic website with different features."
+            },
+            {
+                "no2": "Secure and convenient authentication."
+            },
+            {
+                "no3": "The website integrates a payment system, allowing users to make payment."
+            }
+        ],
+        "technologies": "",
+        "img": "https://i.ibb.co/23DQWr1/assignment-10-chef-recip-195a7-web-app.png",
+        "liveSite": "https://assignment-10-chef-recip-195a7.web.app/",
+        "github": "https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-AnikaBushra",
+        "server": ""
+    },
+    {
+        "name": "Kids Zone",
+        "features": [
+            {
+                "no1": "A responsive and dynamic website with different features."
+            },
+            {
+                "no2": "Secure and convenient authentication."
+            },
+            {
+                "no3": "The website integrates a payment system, allowing users to make payment."
+            }
+        ],
+        "technologies": "",
+        "img": "https://i.ibb.co/NN6RtvF/assignment-11-toy-market-8d9ec-web-app.png",
+        "liveSite": "https://assignment-11-toy-market-8d9ec.web.app",
+        "github": "https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-AnikaBushra",
+        "server": ""
+    }
+]
