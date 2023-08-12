@@ -3,6 +3,7 @@ import { TfiLinkedin } from "react-icons/tfi";
 import { AiFillGithub } from "react-icons/ai";
 import Navbar from "../Navbar/Navbar";
 import './Banner.css'
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -21,9 +22,10 @@ const Banner = () => {
                 </div>
                 <p className="mx-auto w-1/2 text-center py-4">Welcome to my portfolio website! I am thrilled to have you here. Take a moment to explore my work. From stunning designs to captivating projects, I invite you to witness my passion come to life. Feel free to contact me with any questions or opportunities.</p>
                 <div className="text-2xl flex justify-center my-6">
-                    <AiFillGithub></AiFillGithub>
-                    <TfiLinkedin className="mx-6"></TfiLinkedin>
-                    <BsFacebook></BsFacebook>
+                    <Link to="https://github.com/"><AiFillGithub></AiFillGithub></Link>
+                    <Link to="https://www.linkedin.com/in/anika-bushra-892a60226/"><TfiLinkedin className="mx-6"></TfiLinkedin></Link>
+                    <Link><BsFacebook></BsFacebook></Link>
+
                 </div>
 
             </div>
