@@ -1,11 +1,24 @@
-
+import './SingleProjects.css';
 
 const SingleProject = ({ project }) => {
     const { name, img, features, liveSite, github } = project;
+    const projectStyle = {
+        backgroundImage: `url(${img})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '700px',
+        transition: 'ease-in-out 8s'
+    }
+
     console.log(name);
     return (
-        <div>
-            <div style={{ height: '700px' }} className="card w-96 bg-base-100 shadow-xl relative">
+        <div className="projects">
+
+            <div style={projectStyle}>
+                ddd
+            </div>
+
+            {/* <div style={{ height: '700px' }} className="card w-96 bg-base-100 shadow-xl relative">
                 <figure className="px-10 pt-10">
                     <img src={img} alt="projects" className="rounded-xl" />
                 </figure>
@@ -21,7 +34,7 @@ const SingleProject = ({ project }) => {
                     }
                     <p className="text-xl m-4">Technologies:</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

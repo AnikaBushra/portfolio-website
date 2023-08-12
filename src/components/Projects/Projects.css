@@ -1,0 +1,26 @@
+.container .project {
+    width: 100%;
+    background: white;
+    height: 300px;
+    background-position: top;
+    transition: ease-in 2s;
+}
+
+.container .project.project1 {
+    background: url('https://i.ibb.co/MCFk4SZ/summer-camp-assignment-12-web-app.png');
+    background-size: cover;
+}
+
+.container .project.project2 {
+    background: url('https://i.ibb.co/23DQWr1/assignment-10-chef-recip-195a7-web-app.png');
+    background-size: cover;
+}
+
+.container .project.project3 {
+    background: url('https://i.ibb.co/23DQWr1/assignment-10-chef-recip-195a7-web-app.png');
+    background-size: cover;
+}
+
+.container .project:hover {
+    background-position: bottom;
+}

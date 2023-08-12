@@ -9,7 +9,7 @@ import { SiExpress } from 'react-icons/si';
 
 const MySkills = () => {
     return (
-        <div className='py-6 bg-black text-white '>
+        <div className='py-6 bg-black text-gray-300 '>
             <div className="text-center flex flex-col   items-center">
                 <h1 className="text-3xl font-bold">My Skills</h1>
                 <div className='grid grid-cols-1 md:grid-cols-4   md:gap-10 w-2/3 mx-4'>
